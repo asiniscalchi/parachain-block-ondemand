@@ -1,0 +1,20 @@
+# Ignore node modules (they will be installed in the container)
+node_modules
+
+# Ignore environment files containing sensitive data
+.env
+.env.*
+
+# Ignore local logs
+logs
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+
